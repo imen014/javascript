@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>page de test</title>
+<style>
+#p1 {
+    background-color: antiquewhite;
+}
+</style>
+</head>
+<body>
+<script>
+alert("bonjour");
+let nom = confirm("are u sahar?");
+const prenom = prompt("entrer votre prenom :");
+function func1(){
+contenu = "tout va bien";
+alert(contenu);
+}
+function func2(){
+contenu = "verifier votre identité !";
+confirm(contenu);
+}
+function func3(){
+    let i = 0;
+    for(i=0; i<5; i++){
+        alert(i)
+    }
+}
+</script>
+<p id = "p1">Admin Sahar</p>
+<input type="button" value="cliquez ici" onclick="func1()"/><br/>
+<input type="button" value="cliquez ici" onclick="func2()"/><br/>
+<input type="button" value="cliquez ici" onclick="func3()"/><br/>
+<a href="un lien" onclick="func1()">consulter cette page</a>
+
+
+</body>
+</html>
